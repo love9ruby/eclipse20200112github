@@ -10,7 +10,7 @@ public class HelloSpringBoot {
 	//透過 @RequestMapping 指定從/會被對應到此hello()方法
   @RequestMapping("/")
   public String hello(){
-      return "向全世界說聲Spring Boot 很高興認識你!";
+      return "向全世界說聲Spring Boot 很高興認識你! 送到local ";
   }
 
 }
